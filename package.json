@@ -1,0 +1,33 @@
+{
+  "name": "how-busy",
+  "version": "1.0.0",
+  "description": "HowBusy will track the number of customers in a business",
+  "author": "Sebastian",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/dotenv": "^1.4.0",
+    "cookieparser": "^0.1.0",
+    "firebase": "^7.14.2",
+    "js-cookie": "^2.2.1",
+    "jwt-decode": "^2.2.0",
+    "nuxt": "^2.0.0",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "babel-eslint": "^10.0.1",
+    "core-js": "^2.6.5",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2"
+  }
+}
